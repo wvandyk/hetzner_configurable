@@ -21,6 +21,7 @@ Or install it yourself as:
 
 Include the HetznerConfigurable::Configurable class in your class definition
 eg:
+
     class MyClass
       include HetznerConfigurable::Configurable
     

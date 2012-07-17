@@ -7,7 +7,7 @@ specified to a class in an initializer (in rails)
 
 Add this line to your application's Gemfile:
 
-    gem 'hetzner_configurable'
+    gem 'hetzner-configurable'
 
 And then execute:
 
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install hetzner_configurable
+    $ gem install hetzner-configurable
 
 ## Usage
 

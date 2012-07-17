@@ -1,4 +1,4 @@
-module HetznerConfigurable
+module Hetzner
   module Configurable
     module ClassMethods
       def config

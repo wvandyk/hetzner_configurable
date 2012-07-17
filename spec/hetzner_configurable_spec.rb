@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-class Test; include HetznerConfigurable::Configurable; end
-class OtherTest; include HetznerConfigurable::Configurable; end
+class Test; include Hetzner::Configurable; end
+class OtherTest; include Hetzner::Configurable; end
 
-describe HetznerConfigurable::Configurable do
+describe Hetzner::Configurable do
   it "should be able to specify configuration to a class when mixed into the class" do
     Test.should respond_to(:config=)
   end
